@@ -1,0 +1,30 @@
+Q. What happens when you initialize a repository? Why do you need to do it?
+
+It makes a structure to track the history of files.
+
+
+Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
+it is a snapshot of files you want to keep track of.
+
+Q. How can you use the staging area to make sure you have one commit per logical change?
+use 'git diff --staged' to see if there is only one file/command that has been changed from the previous commit.
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+it helps when you want to test a new feature, or want to check how a change in code would work.
+
+Q. How do the diagrams help you visualize the branch structure?
+it tells you the reachability
+
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+One branch may no longer be necessary.
+it is difficult to see the changes made by one commit, so we need to use git show rather than git diff. git show commit_id shows the differece
+between the commit and its parent without knowing where the parent is.
+
+Q. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros
+- it can save time to manually check conflicts, and whenever changes conflict you can check so it can make sure the quality of the code
+
+cons
+- you don't check the code before merging when it's automatic. When someone accidentally puts a bug, there is no chance for use to fix it.
+
+
