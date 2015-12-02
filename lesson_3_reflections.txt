@@ -1,4 +1,9 @@
-When would you want to create a remote repository rather than keeping all your work local?
+Q. When would you want to create a remote repository rather than keeping all your work local?
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Q. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 you can choose which branch you want to pull.
+
+Q. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+forks   : copy files on github. Copied objects remain in Github unless you clone it to your local
+clones  : copy files on github to your local
+branches: a different version of codes that still belongs to the same repository.
